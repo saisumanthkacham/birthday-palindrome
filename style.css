@@ -1,0 +1,107 @@
+
+:root {
+   /* --primary : #280341; */
+     --primary : #022433;
+    /* --secoundary :  #ed5107; */
+    --secoundary :  #eff870;
+}
+
+body{
+    background-color: var(--primary); 
+    color : rgb(252, 238, 238);
+    text-align: center;
+    margin : 8% 28%;
+
+    
+    
+}
+.color-highlight{
+    color : var(--secoundary);
+}
+.discription,.discription2,.heading{
+    padding : 1rem 0rem;
+}
+
+.date-input{
+ border : 2px solid var(--secoundary);   
+ padding : 0.4rem;
+ border-radius: 0.5rem;
+ background-color: var(--primary);
+ color :var(--secoundary);
+ /* width : 17rem; */
+ margin : 1rem;
+}
+
+.check-btn{
+    background-color:var(--secoundary);
+    padding : 0.4rem;
+ border-radius: 0.5rem;
+ border : 2px solid var(--primary);  
+}
+.output{
+    color : var(--secoundary);
+    font-size:x-large;
+    border : 1px solid var(--secoundary);
+    padding : 0.2rem;
+    margin : 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.foot{
+    width: fit-content;
+    margin : 8% auto;
+    text-align: center;
+   
+}
+.initem{
+display: inline;
+
+font-size: 25px;
+}
+.item{
+    color: white;
+    padding:10px;
+}
+.made-stmt{
+    color:white;
+    padding:  0px 10px 10px 10px;
+    text-align: center;
+    border-top: 0.1rem solid var(--secoundary);
+    padding-top: 1rem;
+}
+.gmail-phone{
+    color:var(--primary);
+    font-size: 0px;
+  }
+
+  
+
+  @media screen and (max-width : 600px)
+  {
+    .gmail-laptop{
+        display: none;
+        padding: 0px;
+    }
+    body{
+        margin : 2rem;
+    }
+
+    
+    .gmail-phone{
+        font-size: 25px;
+        color:white;
+        padding: 2px;
+    }
+    .foot{
+    margin-top:22%;
+    }
+   .item-link{
+       margin-left: -20%;
+   }
+    .container{
+      margin-top: 20%;
+
+    }
+
+  }
